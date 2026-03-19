@@ -1,0 +1,17 @@
+{
+  "id": "entire-cli",
+  "version": "1.0.0",
+  "name": "Entire CLI",
+  "description": "Install the Entire CLI for AI-assisted development workflows",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "Version of the Entire CLI to install. Use 'latest' for the most recent release or pin to a specific version (e.g., '0.5.0')."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/devcontainers/features/git"
+  ]
+}

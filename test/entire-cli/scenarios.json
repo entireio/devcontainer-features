@@ -1,0 +1,16 @@
+{
+  "install_latest": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "entire-cli": {}
+    }
+  },
+  "install_pinned": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "entire-cli": {
+        "version": "0.5.0"
+      }
+    }
+  }
+}
