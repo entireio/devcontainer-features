@@ -1,0 +1,18 @@
+how ins the release workflow triggered now?
+
+---
+
+got this error, can you also check if we are using the latest action versions: 
+
+Run devcontainers/action@v1
+Validating Feature metadata...
+node:internal/process/promises:391
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+[Error: ENOENT: no such file or directory, scandir ''] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: ''
+}
