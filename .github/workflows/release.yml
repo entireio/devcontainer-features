@@ -16,8 +16,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Publish Dev Container Features
-        uses: devcontainers/action@v1
+        uses: devcontainers/action@v1.4.3
         with:
           publish-features: true
+          base-path-to-features: "./src"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
