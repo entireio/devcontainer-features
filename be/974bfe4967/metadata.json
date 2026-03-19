@@ -1,0 +1,30 @@
+{
+  "cli_version": "v0.5.0-dev-a6afe0e6",
+  "checkpoint_id": "be974bfe4967",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".github/workflows/release.yml",
+    "README.md",
+    "src/entire-cli/devcontainer-feature.json",
+    "src/entire-cli/install.sh",
+    "test/entire-cli/scenarios.json",
+    "test/entire-cli/test.sh"
+  ],
+  "sessions": [
+    {
+      "metadata": "/be/974bfe4967/0/metadata.json",
+      "transcript": "/be/974bfe4967/0/full.jsonl",
+      "content_hash": "/be/974bfe4967/0/content_hash.txt",
+      "prompt": "/be/974bfe4967/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 20,
+    "cache_creation_tokens": 37210,
+    "cache_read_tokens": 354129,
+    "output_tokens": 3578,
+    "api_call_count": 12
+  }
+}
